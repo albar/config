@@ -1,10 +1,8 @@
-*
+*/**
+!alacritty/**
+!fish/**
+!i3/**
+!picom/**
+!polybar/**
+!rofi/**
 !.gitignore
-!alacritty
-!fish
-!fisher
-!i3
-!picom
-!polybar
-!rofi
-
