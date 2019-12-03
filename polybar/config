@@ -141,12 +141,13 @@ wrapping-scroll = false
 ;pin-workspaces = true
 
 label-mode-padding = 2
-label-mode-foreground = #000
+label-mode-foreground = #fff
 label-mode-background = ${colors.background}
 
 ; focused = Active workspace on focused monitor
 label-focused = %index%
 label-focused-background = ${colors.background}
+label-focused-foreground = #fff
 label-focused-underline= ${colors.transparent}
 label-focused-overline= ${colors.primary}
 label-focused-padding = 2
@@ -155,6 +156,7 @@ label-focused-padding = 2
 label-unfocused = %index%
 label-unfocused-padding = 2
 label-unfocused-background = ${colors.transparent}
+label-unfocused-foreground = #fff
 
 ; visible = Active workspace on unfocused monitor
 label-visible = %index%
@@ -162,10 +164,12 @@ label-visible-background = ${colors.transparent}
 label-visible-underline = ${colors.transparent}
 label-visible-overline = ${self.label-focused-underline}
 label-visible-padding = ${self.label-focused-padding}
+label-visible-foreground = #fff
 
 ; urgent = Workspace with urgency hint set
 label-urgent = %index%
 label-urgent-background = ${colors.alert}
+label-urgent-foreground = #fff
 label-urgent-padding = 2
 
 ; Separator in between workspaces
