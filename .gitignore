@@ -6,4 +6,5 @@
 !polybar/**
 !rofi/**
 !libinput-gestures.conf
+!.gitattributes
 !.gitignore
