@@ -4,20 +4,17 @@ configuration {
 
 * {
 	spacing: 0;
-	background-color: transparent;
+	background-color: #0d0d0d;
 	font: "Roboto Mono 13";
 }
 
 window {
-	transparency: "real";
-	/*fullscreen: true;*/
 	background-color: #0d0d0d;
 }
 
 mainbox {
 	children: [inputbar, message, mode-switcher, listview];
 	spacing: 30px;
-	/*margin: 20%;*/
 	padding: 30px 0;
 	border: 1px;
 	border-color: #0d0d0d;
@@ -72,10 +69,6 @@ scrollbar {
 element {
 	padding: 8px;
 	highlight: bold underline;
-}
-
-element normal {
-	background-color: transparent;
 }
 
 element selected {
