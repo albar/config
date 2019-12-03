@@ -200,5 +200,4 @@ exec_always i3-msg gaps inner all set 4
 #        i3bar_command polybar
 #}
 
-exec_always --no-stratup-id hsetroot -solid "#000"
 exec_always --no-startup-id ~/.config/polybar/polybar.sh &
