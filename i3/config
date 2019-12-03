@@ -185,8 +185,9 @@ bindsym $mod+r mode "resize"
 for_window [class=".*"] border pixel 1
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #0a0b0c #0c0c0c #ffffff #303030   #303030
-client.unfocused        #0c0c0c #0c0c0c #888888 #0c0c0c   #0c0c0c
+client.focused          #303030 #0a0b0c #ffffff #808080   #808080
+client.focused_inactive #0c0c0c #0c0c0c #888888 #303030   #303030
+client.unfocused        #0c0c0c #0c0c0c #888888 #303030   #303030
 
 exec_always i3-msg gaps inner all set 4
 
