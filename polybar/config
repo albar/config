@@ -69,7 +69,7 @@ font-3 = Font Awesome 5 Free Solid:pixelsize=8;2
 
 modules-left = i3 title
 ;modules-center = date 
-modules-right = downspeed eth wlan pulseaudio xkeyboard memory cpu battery date
+modules-right = downspeed eth wlan pulseaudio backlight-acpi xkeyboard memory cpu battery date
 
 tray-position = center 
 tray-padding = 2
@@ -193,19 +193,16 @@ label-song-ellipsis = true
 inherit = style/cozy
 type = internal/xbacklight
 
-format = <label> <bar>
-label = BL
+format = <ramp> <label> 
+format-background = ${colors.background}
+format-padding = 2
+label = %percentage:3%%
 
-bar-width = 5 
-bar-indicator = |
-bar-indicator-foreground = #fff
-bar-indicator-font = 2
-bar-fill = ─
-bar-fill-font = 2
-bar-fill-foreground = #9f78e1
-bar-empty = ─
-bar-empty-font = 2
-bar-empty-foreground = ${colors.foreground-alt}
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
 
 [module/backlight-acpi]
 inherit = module/xbacklight
