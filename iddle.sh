@@ -19,5 +19,5 @@ xidlehook \
     'xrandr --output "$PRIMARY_DISPLAY" --brightness 1' \
   `# Undim & lock after 10 more seconds` \
   --timer 120 \
-    'xrandr --output "$PRIMARY_DISPLAY" --brightness 1; i3lock -c 111111' \
-    ''
+    'xrandr --output "$PRIMARY_DISPLAY" --brightness 0; i3lock -c 111111' \
+    'xrandr --output "$PRIMARY_DISPLAY" --brightness 1'
