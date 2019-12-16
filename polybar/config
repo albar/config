@@ -301,7 +301,7 @@ format-padding = 2
 format-background = ${colors.background}
 
 format-prefix = 
-format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-foreground = ${colors.foreground}
 ;format-underline = #0a6cf5
 
 ;label-background= ${colors.background}
