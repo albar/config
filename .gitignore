@@ -8,5 +8,6 @@
 !rofi/**
 !libinput-gestures.conf
 !iddle.sh
+!.bg
 !.gitattributes
 !.gitignore
