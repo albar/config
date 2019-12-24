@@ -1,7 +1,7 @@
 @-moz-document url(chrome://browser/content/browser.xhtml) {
+	:root { --tab-min-height: 28px !important; }
+	:root .tabbrowser-tab { --tab-min-height: 28px !important; font-size: 90%; }
 	#navigator-toolbox::after { border: none; }
-	:root { --tab-min-height: 18px !important; }
-	#tabbrowser-tabs, .tab-stack { height: 28px !important; }
-	.tabbrowser-tab { font-size: 90%; }
+	#tabbrowser-tabs, .tab-stack { min-height: 28px !important; }
 	.tab-close-button .toolbarbutton-icon { width: 12px !important; height: 12px !important; }
 }
