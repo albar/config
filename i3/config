@@ -56,6 +56,7 @@ bindsym $mod+q kill
 #bindsym $mod+d exec rofi -show run -lines 3 -eh 2 -width 100 -padding 400 -opacity "85" -bw 0 -bc $bg-color -bg $bg-color -fg $text-color -hlbg $bg-color -hlfg "#9575cd" -font "Roboto 18"
 bindsym $mod+space exec "rofi -modi drun -show drun -theme darkness -display-drun Application"
 bindsym $mod+c exec "rofi -modi run -show run -theme darkness -display-run Command"
+bindsym $mod+equal exec "rofi -modi calc -show calc -theme darkness -display-calc Calculate"
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
