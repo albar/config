@@ -9,6 +9,7 @@
 !rofi
 !userChrome
 
+!login.sh
 !libinput-gestures.conf
 !iddle.sh
 !.bg
