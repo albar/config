@@ -56,6 +56,7 @@ font-1 = siji:pixelsize=10;2
 font-2 = Noto Emoji:size=7;2
 font-3 = Noto Emoji:size=7;1
 font-4 = Noto Emoji:size=6;2
+font-5 = Noto Sans:size=9:weight=medium;3
 
 modules-left = i3 title
 modules-right = downspeed eth wlan pulseaudio backlight-acpi memory cpu battery date
@@ -71,6 +72,7 @@ cursor-scroll = ns-resize
 [module/title]
 type = internal/xwindow
 format = <label>
+format-font = 6
 format-padding = 2
 label = %title%
 label-maxlen = 100
