@@ -274,11 +274,11 @@ format-volume-padding = 2
 label-volume = %percentage:3%%
 
 format-muted-prefix = 🔇
-label-muted = " muted"
-label-muted-foreground = #ff8C54 
 format-muted-foreground = #ff8C54 
 format-muted-background = ${colors.background}
 format-muted-padding = 2
+label-muted = " %percentage:3%%"
+label-muted-foreground = #ff8C54
 
 ramp-volume-0 = 🔈
 ramp-volume-1 = 🔉
