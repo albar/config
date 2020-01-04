@@ -5,7 +5,7 @@ configuration {
 * {
 	spacing: 0;
 	background-color: #0d0d0d;
-	font: "Roboto Mono 13";
+	font: "Noto Sans 12";
 }
 
 window {
