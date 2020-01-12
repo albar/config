@@ -8,8 +8,10 @@
 !polybar
 !rofi
 !userChrome
+!wallpapers
 
 !login.sh
+!bg.sh
 !libinput-gestures.conf
 !iddle.sh
 !screen_setup.sh
