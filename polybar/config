@@ -17,7 +17,7 @@
 ;==========================================================
 
 [colors]
-background = #333
+background = #444
 background-alt = #444
 background-module = #54ced6
 foreground = #dfdfdf
