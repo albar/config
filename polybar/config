@@ -28,7 +28,7 @@ alert = #bd2c40
 transparent = #0000
 
 [sizes]
-gaps = 4
+gaps = 2
 
 [bar/top]
 bottom = false
@@ -73,6 +73,7 @@ cursor-scroll = ns-resize
 type = internal/xwindow
 format = <label>
 format-font = 6
+format-foreground = ${colors.background}
 format-padding = 2
 label = %title%
 label-maxlen = 100
@@ -130,7 +131,7 @@ label-focused-padding = 2
 label-unfocused = %index%
 label-unfocused-padding = 2
 label-unfocused-background = ${colors.transparent}
-label-unfocused-foreground = #fff
+label-unfocused-foreground = ${colors.background}
 
 ; visible = Active workspace on unfocused monitor
 label-visible = %index%
