@@ -166,12 +166,16 @@ label-song-ellipsis = true
 [module/xbacklight]
 type = internal/xbacklight
 
-format = <label>
-format-prefix = 💡
-format-prefix-font = 4 
+format = <ramp> <label>
 format-background = ${colors.background}
 format-padding = 2
 label = %percentage:3%%
+
+ramp-0 = 🌕
+ramp-1 = 🌔
+ramp-2 = 🌓
+ramp-3 = 🌒
+ramp-4 = 🌑
 
 [module/backlight-acpi]
 inherit = module/xbacklight
