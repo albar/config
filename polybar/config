@@ -23,7 +23,7 @@ background-module = #54ced6
 foreground = #dfdfdf
 foreground-alt = #555
 primary = #3a7cac
-secondary = #e60053
+secondary = #909090
 alert = #bd2c40
 transparent = #0000
 
@@ -274,11 +274,11 @@ format-volume-padding = 2
 label-volume = %percentage:3%%
 
 format-muted-prefix = 🔇
-format-muted-foreground = #ff8C54 
+format-muted-foreground = ${colors.secondary} 
 format-muted-background = ${colors.background}
 format-muted-padding = 2
 label-muted = " %percentage:3%%"
-label-muted-foreground = #ff8C54
+label-muted-foreground = ${colors.secondary} 
 
 ramp-volume-0 = 🔈
 ramp-volume-1 = 🔉
