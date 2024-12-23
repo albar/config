@@ -1,9 +1,6 @@
-bass source /etc/profile
-bass source $HOME/.profile
+test -f ~/.profile && bass source ~/.profile
 
-if not functions -q fisher
-    set -q XDG_CONFIG_HOME; or set XDG_CONFIG_HOME ~/.config
-    curl https://git.io/fisher --create-dirs -sLo $XDG_CONFIG_HOME/fish/functions/fisher.fish
-    fish -c fisher
+if status is-interactive
+    # Commands to run in interactive sessions can go here
 end
 
